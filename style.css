@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+body {
+   background-image: url("banner.png");
+}
+.topnav {
+    overflow: hidden;
+    
+}
+.topnav a {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 12px; 
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 10px;
+    padding-left: 30px;
+ 
+}
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .photo{
+    margin-top: 40px;
+    margin-left: 850px;
+    display: flex;
+    position: relative;
+  }
+
+
+  .text{
+    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    bottom: 230px;
+    left: 60px;
+    display: flex;
+    color: chocolate;
+
+  }
+  .logo{
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    color: chocolate;
+    left: 40px;
+    bottom: 545px;
+    font-size: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  .logo:hover {
+    
+    transform: scale(1.1); 
+}
+  button {
+    background-color: chocolate;
+    border: none; 
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 12px; /* Rounded corners */
+    position: absolute;
+    bottom: 150px;
+    left: 58px;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #d2691e; /* Darker chocolate on hover */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+.pagename{
+  position: absolute;
+  left: 1200px;
+  bottom: 54px;
+  color: #d2691e;
+  opacity: 0.3;
+  font-size: larger;
+}
+.container {
+  display: flex;
+  align-items: center; /* Aligns items vertically if they have different heights */
+  justify-content: space-between; /* Space between the image and text */
+  padding: 20px;
+  background-color: #ffffff; /* Adds some padding around the container */
+}
+
+.pic {
+  width: 450px;
+  height: 450px;
+  /* border: 4px solid black; */
+  text-align: center;
+  /* box-shadow: 0px 5px 10px 0px rgba(255, 7, 7, 0.5); */
+}
+
+.pic img {
+  width: 100%;
+  height: auto;
+}
+
+.about-me {
+  flex: 1; /* Makes the "About Me" section take up the remaining space */
+  padding-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: chocolate; /* Adds space between the image and the text */
+}
+
+.about-me h2 {
+  margin-top: 0; /* Removes default margin from the top of the heading */
+}
+
+.about-me p {
+  margin-bottom: 0; /* Removes default margin from the bottom of the paragraph */
+}
+
+  
+  .pic img {
+    width: 100%; /* Make the image fit within the container */
+    height: auto; /* Maintain the image's aspect ratio */
+  } 
+  
